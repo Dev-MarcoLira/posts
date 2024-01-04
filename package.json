@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "tests/",
     "start:dev": "nodemon src/index.js",
+    "worker": "src/worker/helloWorldWorker.js",
     "start": "node src/index.js"
   },
   "keywords": [],
